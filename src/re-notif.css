@@ -1,6 +1,6 @@
 .notif-enter {
   opacity: 0.01;
-  transition: opacity .5s ease-in;
+  transition: opacity .3s ease-in;
 }
 
 .notif-enter.notif-enter-active {
@@ -9,7 +9,7 @@
 
 .notif-leave {
   opacity: 1;
-  transition: opacity .5s ease-in;
+  transition: opacity .3s ease-in;
 }
 
 .notif-leave.notif-leave-active {
