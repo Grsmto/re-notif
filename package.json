@@ -7,7 +7,7 @@
     "build:lib": "BABEL_ENV=production babel src --out-dir lib",
     "build:demo": "rimraf ./dist_demo && cd demo && webpack -p && mv dist_demo ../"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/indexiatech/re-notif.git"
